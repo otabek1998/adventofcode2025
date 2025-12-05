@@ -1,0 +1,20 @@
+# Bazel build outputs
+bazel-*
+/bazel-adventofcode2025
+/bazel-bin
+/bazel-out
+/bazel-testlogs
+
+# Bazel convenience symlinks
+/.bazel-*
+
+# Bazel user configuration
+.bazelrc.user
+.bazelversion
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
