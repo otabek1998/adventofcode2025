@@ -31,7 +31,7 @@ int main() {
             long long max_joltage = 0;
             
             // Use iterative combination generation with early pruning
-            std::function<void(int, int, std::vector<int>&, long173161749617495 long)> findMax;
+            std::function<void(int, int, std::vector<int>&, long long)> findMax;
             findMax = [&](int pos, int count, std::vector<int>& selected, long long current) {
                 if (count == 12) {
                     max_joltage = std::max(max_joltage, current);
